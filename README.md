@@ -32,3 +32,11 @@ common git command
 10. git log --all --graph //To show the tree of commits
 11. git checkout <hash> <filename> // to get certain or all changes from version 1 to the current version 2(master or head)
 12. git branch <updated-version1> // else the sub branch will be trackless
+13. git config --credential .username // To config the github credential to local git
+14. git remote -v // To check the remote orirgins connected to local git
+15. git clone <HTTPS Link of the repo in remote > <foldername that has to be created> ie.if the remote repo name is fine then no need of specifying the filename
+
+Branching
+
+1. git branch <branchname> // Set to current head (HEAD->master,branchname)
+2. git checkout <branchname> // Set to branch (HEAD->branchname,master stays where the last push has done)
