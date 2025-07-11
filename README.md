@@ -1,7 +1,7 @@
 # Portfiolio
 
 Git
-create a git repo in github
+create a git repo in githusb
 
 1. git init
 2. git add .
